@@ -10,10 +10,11 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - Text + Glow and Dot Matrix display styles
 - Static text or marquee motion in either direction
 - Blink, Pulse, and Fade effects with independent motion and effect speeds
-- Explicit multiline messages, including Hangul text
-- Immersive full-screen Display mode with orientation following and Lock/Unlock controls
-- Layouts designed for phones, tablets, and foldable devices
+- Explicit multiline input without soft wrapping, including Hangul text
+- Immersive full-screen Display with smooth orientation following and Lock/Unlock controls on phones, tablets, and foldables
 - Editor settings preserved between sessions
+- Korean and English interfaces with Settings, privacy policy, and legal notices
+- Google Mobile Ads with UMP consent and privacy options where applicable
 
 ## Screenshots
 
@@ -31,16 +32,16 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Technology
 
-- Kotlin
-- Jetpack Compose
-- Material 3
-- AndroidX and Android SDK 24–36
-- Gradle Kotlin DSL
+- Kotlin 2.4.21
+- Jetpack Compose (BOM 2025.11.00) and Material 3
+- AndroidX DataStore 1.2.1 and Android SDK 24–36
+- Google Mobile Ads 25.5.0 and UMP 4.0.0
+- Android Gradle Plugin 9.4.1 and Gradle 9.8.0 with Kotlin DSL
 
 ## Release status
 
-- **Version:** 0.9.10 (19)
-- **Status:** Submitted for review in Google Play closed testing
+- **Current update:** 0.9.10 (19), submitted for review in Google Play closed testing
+- **Previous Play release:** 0.9.9 (18)
 - **Production availability:** Not yet available as a production release
 
 ## Developer
@@ -49,9 +50,9 @@ LEDgram is developed by **Gowl Labs**.
 
 ## Links
 
-- [Public website](https://chiffon95.github.io/ledgram/)
-- [Privacy Policy — English](https://chiffon95.github.io/ledgram/privacy/)
-- [Privacy Policy — Korean](https://chiffon95.github.io/ledgram/privacy/ko.html)
+- [Public website](https://chiffon95.github.io/ledgram-pages/)
+- [Privacy Policy — English](https://chiffon95.github.io/ledgram-pages/privacy/)
+- [Privacy Policy — Korean](https://chiffon95.github.io/ledgram-pages/privacy/ko.html)
 
 ## License
 
