@@ -57,3 +57,5 @@ LEDgram은 **Gowl Labs**에서 개발합니다.
 ## 라이선스
 
 이 프로젝트에는 오픈 소스 라이선스가 공개되어 있지 않습니다. 모든 권리는 Gowl Labs에 있습니다.
+
+LEDgram에는 Lee Minseo가 제작하고 SIL Open Font License 1.1로 배포한 [Galmuri11](https://github.com/quiple/galmuri)이 포함됩니다. OFL은 번들 글꼴에만 적용되며 LEDgram 애플리케이션 소스 코드에는 적용되지 않습니다.

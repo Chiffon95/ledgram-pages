@@ -57,3 +57,5 @@ LEDgram is developed by **Gowl Labs**.
 ## License
 
 No open-source license has been published for this project. All rights are reserved by Gowl Labs.
+
+LEDgram bundles [Galmuri11](https://github.com/quiple/galmuri) by Lee Minseo under the SIL Open Font License 1.1. The OFL applies to the bundled font, not to LEDgram's application source code.
