@@ -13,6 +13,7 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - Explicit multiline input without soft wrapping, including Hangul text
 - Immersive full-screen Display with smooth orientation following and Lock/Unlock controls on phones, tablets, and foldables
 - Editor settings preserved between sessions
+- Local preset library with saved previews, details, create, load, rename, explicit overwrite, delete, load Undo, and an editable initial Default preset
 - Korean and English interfaces with Settings, privacy policy, and legal notices
 - Google Mobile Ads with UMP consent and privacy options where applicable
 
@@ -40,9 +41,8 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Release status
 
-- **Current update:** 0.9.11 (20), prepared for Google Play closed testing
-- **Previous Play release:** 0.9.10 (19)
-- **Production availability:** Not yet available as a production release
+- **Published version:** 0.9.11 (20), available on Google Play
+- **Upcoming release:** 1.0.0 (21), currently in preparation
 
 ## Developer
 
