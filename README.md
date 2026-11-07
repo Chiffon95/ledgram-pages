@@ -6,7 +6,7 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Highlights
 
-- Custom text and background colors with bold, italic, and underline styles
+- Solid text and background colors plus six static and four animated text gradient patterns, with bold, italic, and underline styles
 - Text + Glow and Dot Matrix display styles
 - Static text or marquee motion in either direction
 - Blink, Pulse, and Fade effects with independent motion and effect speeds
@@ -14,6 +14,7 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - Immersive full-screen Display with smooth orientation following and Lock/Unlock controls on phones, tablets, and foldables
 - Editor settings preserved between sessions
 - Local preset library with saved previews, details, create, load, rename, explicit overwrite, delete, load Undo, and an editable initial Default preset
+- New installations start with a static horizontal Brand Amber-to-Pink gradient; existing saved Editor configurations and presets remain unchanged
 - Korean and English interfaces with Settings, privacy policy, and legal notices
 - Google Mobile Ads with UMP consent and privacy options where applicable
 
@@ -41,8 +42,8 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Release status
 
-- **Published version:** 0.9.11 (20), available on Google Play
-- **Upcoming release:** 1.0.0 (21), currently in preparation
+- **Published version:** 1.0.0 (21), available on Google Play
+- **Upcoming release:** 1.1.0, prepared as a release candidate and not yet published
 
 ## Developer
 
