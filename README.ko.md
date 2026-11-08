@@ -43,6 +43,7 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 ## 출시 상태
 
 - **게시된 버전:** 1.1.0 (22), Google Play에서 제공 중
+- **설치:** [Google Play에서 LEDgram 설치하기](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## 개발자
 
