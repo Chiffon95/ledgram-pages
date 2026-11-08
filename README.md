@@ -42,7 +42,7 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Release status
 
-- **Published version:** 1.1.0 (22), available on Google Play
+- **Published version:** 1.1.1 (23), available on Google Play
 - **Install:** [Get LEDgram on Google Play](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## Developer
