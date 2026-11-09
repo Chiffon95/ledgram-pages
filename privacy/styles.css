@@ -84,6 +84,11 @@ nav a[aria-current="page"] {
   margin-bottom: 0;
 }
 
+.notice {
+  color: #605d66;
+  font-size: 0.925rem;
+}
+
 .placeholder {
   border-left: 0.25rem solid #bc7900;
   padding: 0.75rem 1rem;
@@ -109,6 +114,10 @@ nav a[aria-current="page"] {
   }
 
   .product {
+    color: #cac4d0;
+  }
+
+  .notice {
     color: #cac4d0;
   }
 
