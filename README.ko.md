@@ -6,7 +6,8 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 
 ## 주요 기능
 
-- 단색 글자·배경 색상과 6가지 고정 및 4가지 애니메이션 글자 그라데이션, 굵게, 기울임, 밑줄 설정
+- 단색 글자·배경 색상과 6가지 고정 및 4가지 애니메이션 글자 그라데이션, 독립적인 그라데이션 속도
+- 굵게, 기울임, 밑줄 글자 스타일
 - Text + Glow 및 Dot Matrix 표현 방식
 - 고정 문구 또는 양방향 전광판 이동
 - Blink, Pulse, Fade 효과와 독립적인 이동·효과 속도 조절
@@ -15,7 +16,8 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 - 앱을 다시 실행해도 유지되는 Editor 설정
 - 저장된 미리보기와 상세 정보, 생성, 불러오기, 이름 변경, 명시적 덮어쓰기, 삭제, 불러오기 실행 취소 및 편집 가능한 초기 Default를 지원하는 로컬 프리셋 라이브러리
 - 새로 설치하면 Brand Amber에서 Pink로 이어지는 고정 가로 그라데이션으로 시작하며, 기존에 저장된 Editor 설정과 프리셋은 변경되지 않음
-- Settings, 개인정보 처리방침, 법적 고지를 제공하는 한국어 및 영어 인터페이스
+- 시스템 기본값과 앱에서 직접 선택 가능한 14개 언어: 영어, 한국어, 일본어, 중국어 간체, 스페인어(스페인), 스페인어(라틴 아메리카), 포르투갈어(브라질), 프랑스어, 독일어, 이탈리아어, 인도네시아어, 베트남어, 태국어, 아랍어 및 아랍어 오른쪽에서 왼쪽으로 쓰기(RTL) 지원
+- 광고 없이 표시되는 전체 화면 Display와 계정·로그인 없이 바로 사용할 수 있는 구성
 - 필요한 지역에서 UMP 동의 및 개인정보 보호 옵션을 제공하는 Google Mobile Ads
 
 ## 스크린샷
@@ -24,13 +26,25 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 
 <img src="docs/play-store/screenshots/ko/01-editor-overview.png" alt="실시간 미리보기와 꾸미기 설정이 표시된 LEDgram Editor" width="320">
 
+### 그라데이션 패턴
+
+<img src="docs/play-store/screenshots/ko/02-gradient-patterns.png" alt="LEDgram 그라데이션 패턴 선택 화면" width="320">
+
+### 프리셋
+
+<img src="docs/play-store/screenshots/ko/03-presets.png" alt="LEDgram 로컬 프리셋 라이브러리" width="320">
+
+### 이동 및 시각 효과
+
+<img src="docs/play-store/screenshots/ko/04-motion-effects.png" alt="LEDgram 이동 및 시각 효과 설정" width="320">
+
+### Text + Glow Display
+
+<img src="docs/play-store/screenshots/ko/05-text-glow.png" alt="LEDgram Text + Glow 전체 화면 Display" width="640">
+
 ### Dot Matrix Display
 
-<img src="docs/play-store/screenshots/ko/03-dot-matrix.png" alt="LEDgram Dot Matrix 전체 화면 Display" width="720">
-
-### 여러 줄 Display
-
-<img src="docs/play-store/screenshots/ko/06-multiline.png" alt="LEDgram 여러 줄 전체 화면 Display" width="720">
+<img src="docs/play-store/screenshots/ko/06-dot-matrix.png" alt="LEDgram Dot Matrix 전체 화면 Display" width="640">
 
 ## 기술 구성
 
@@ -42,7 +56,7 @@ LEDgram은 Android 스마트폰, 태블릿, 폴더블 기기를 밝고 자유롭
 
 ## 출시 상태
 
-- **게시된 버전:** 1.1.1 (23), Google Play에서 제공 중
+- **게시된 버전:** 1.2.0 (26), Google Play에서 제공 중
 - **설치:** [Google Play에서 LEDgram 설치하기](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## 개발자

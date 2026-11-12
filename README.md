@@ -6,7 +6,8 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Highlights
 
-- Solid text and background colors plus six static and four animated text gradient patterns, with bold, italic, and underline styles
+- Solid text and background colors plus six static and four animated text gradient patterns with independent gradient speed
+- Bold, italic, and underline text styles
 - Text + Glow and Dot Matrix display styles
 - Static text or marquee motion in either direction
 - Blink, Pulse, and Fade effects with independent motion and effect speeds
@@ -15,22 +16,35 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 - Editor settings preserved between sessions
 - Local preset library with saved previews, details, create, load, rename, explicit overwrite, delete, load Undo, and an editable initial Default preset
 - New installations start with a static horizontal Brand Amber-to-Pink gradient; existing saved Editor configurations and presets remain unchanged
-- Korean and English interfaces with Settings, privacy policy, and legal notices
+- System Default plus 14 bundled selectable languages: English, Korean, Japanese, Simplified Chinese, Spanish (Spain), Spanish (Latin America), Portuguese (Brazil), French, German, Italian, Indonesian, Vietnamese, Thai, and Arabic with right-to-left layout support
+- Full-screen Display without ads and no account or login requirement
 - Google Mobile Ads with UMP consent and privacy options where applicable
 
 ## Screenshots
 
-### Editor and live preview
+### Editor overview
 
-<img src="docs/play-store/screenshots/ko/01-editor-overview.png" alt="LEDgram Editor with live preview and customization controls" width="320">
+<img src="docs/play-store/screenshots/en/01-editor-overview.png" alt="LEDgram Editor with live preview and customization controls" width="320">
+
+### Gradient patterns
+
+<img src="docs/play-store/screenshots/en/02-gradient-patterns.png" alt="LEDgram gradient pattern picker" width="320">
+
+### Presets
+
+<img src="docs/play-store/screenshots/en/03-presets.png" alt="LEDgram local preset library" width="320">
+
+### Motion and effects
+
+<img src="docs/play-store/screenshots/en/04-motion-effects.png" alt="LEDgram motion and visual effect controls" width="320">
+
+### Text + Glow display
+
+<img src="docs/play-store/screenshots/en/05-text-glow.png" alt="LEDgram Text + Glow full-screen display" width="640">
 
 ### Dot Matrix display
 
-<img src="docs/play-store/screenshots/ko/03-dot-matrix.png" alt="LEDgram Dot Matrix full-screen display" width="720">
-
-### Multiline display
-
-<img src="docs/play-store/screenshots/ko/06-multiline.png" alt="LEDgram multiline full-screen display" width="720">
+<img src="docs/play-store/screenshots/en/06-dot-matrix.png" alt="LEDgram Dot Matrix full-screen display" width="640">
 
 ## Technology
 
@@ -42,7 +56,7 @@ LEDgram turns an Android phone, tablet, or foldable into a bright, customizable 
 
 ## Release status
 
-- **Published version:** 1.1.1 (23), available on Google Play
+- **Published version:** 1.2.0 (26), available on Google Play
 - **Install:** [Get LEDgram on Google Play](https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram)
 
 ## Developer
