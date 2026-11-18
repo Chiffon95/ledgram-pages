@@ -1,41 +1,80 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="LEDgram by Gwol Labs turns your Android device into a bright, customizable LED message display.">
-  <title>LEDgram by Gwol Labs</title>
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="문구를 입력하고, 색과 움직임을 고르고, 화면 전체로 보여주세요. LEDgram은 스마트폰과 태블릿을 나만의 LED 전광판으로 바꾸는 앱입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LEDgram — Gwol Labs">
+  <meta property="og:description" content="말 한마디, 화면 가득. 문구를 입력하고, 색과 움직임을 고르고, 화면 전체로 보여주세요. LEDgram은 스마트폰과 태블릿을 나만의 LED 전광판으로 바꾸는 앱입니다.">
+  <meta property="og:image" content="https://chiffon95.github.io/ledgram-pages/assets/app-icon.png">
+  <meta property="og:url" content="https://chiffon95.github.io/ledgram-pages/">
+  <link rel="canonical" href="https://chiffon95.github.io/ledgram-pages/">
+  <link rel="alternate" hreflang="ko" href="https://chiffon95.github.io/ledgram-pages/">
+  <link rel="alternate" hreflang="en" href="https://chiffon95.github.io/ledgram-pages/en.html">
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
   <link rel="stylesheet" href="assets/site.css">
+  <title>LEDgram — Gwol Labs</title>
 </head>
 <body>
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <p class="eyebrow">Gwol Labs</p>
-      <h1 id="hero-title">Say it bright<br>with <span>LEDgram.</span></h1>
-      <p class="intro">Turn your Android device into a vivid LED message display, with customizable colors, styles, motion, and effects.</p>
-    </section>
-
-    <section class="policies" aria-labelledby="policies-title">
-      <div>
-        <p class="section-label">Legal</p>
-        <h2 id="policies-title">Privacy Policy</h2>
-        <p>Choose your preferred language to read how LEDgram handles information.</p>
-      </div>
-      <nav aria-label="Privacy policy languages">
-        <a href="privacy/">
-          <span>English</span>
-          <span aria-hidden="true">→</span>
-        </a>
-        <a href="privacy/ko.html" lang="ko">
-          <span>한국어</span>
-          <span aria-hidden="true">→</span>
-        </a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="identity" href="./" aria-label="LEDgram"><img src="assets/app-icon.png" alt="" width="44" height="44"><span class="identity-text"><strong>LEDgram</strong><small class="mono">by GWOL LABS</small></span></a>
+      <nav class="navigation" aria-label="Navigation">
+        <a href="#features">기능</a>
+        <a href="#display">표현 방식</a>
+        <a href="#privacy">개인정보</a>
+        <a class="language mono" href="en.html" lang="en">English</a>
       </nav>
+      <a class="header-cta" href="https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram" target="_blank" rel="noopener noreferrer">Google Play ↗</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow mono">LEDGRAM  /  ANDROID APP</p>
+        <h1 id="hero-title">말 한마디,<br><span>화면 가득.</span></h1>
+        <p class="lead">문구를 입력하고, 색과 움직임을 고르고, 화면 전체로 보여주세요. LEDgram은 스마트폰과 태블릿을 나만의 LED 전광판으로 바꾸는 앱입니다.</p>
+        <div class="cta-row"><a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram" target="_blank" rel="noopener noreferrer">Google Play에서 설치 ↗</a><a class="button button-outline" href="#features">기능 살펴보기</a></div>
+      </div>
+      <div class="hero-visual">
+        <span class="visual-label mono">실제 앱 화면 / EDITOR</span>
+        <img class="screen" src="docs/play-store/screenshots/ko/01-editor-overview.png" alt="LEDgram 문구 편집 화면과 실시간 미리보기" fetchpriority="high">
+      </div>
     </section>
+    <div class="container">
+      <div class="steps"><div class="step"><strong class="mono">01</strong><span>만들고 바로 미리보기</span></div><div class="step"><strong class="mono">02</strong><span>색과 움직임 직접 설정</span></div><div class="step"><strong class="mono">03</strong><span>화면 가득 표시</span></div></div>
+    </div>
+    <section class="container" id="features" aria-labelledby="features-title">
+      <div class="section-intro"><p class="eyebrow mono">MAKE IT YOURS</p><h2 id="features-title">표현은 자유롭게.</h2><p>README에 소개된 기능을 실제 앱 화면과 함께 모았습니다.</p></div>
+      <div class="features">
+        <article class="feature"><div class="feature-text"><p class="eyebrow mono">01 / COLORS &amp; STYLE</p><h3>색과 스타일을 바꾸는 재미</h3><p>글자와 배경을 단색으로 꾸미거나 고정 6종·애니메이션 4종 그라데이션을 적용할 수 있습니다. 굵게, 기울임, 밑줄 등 글자 스타일도 지원합니다.</p></div><div class="feature-photo"><img src="docs/play-store/screenshots/ko/02-gradient-patterns.png" alt="LEDgram 그라데이션 패턴 선택 화면" loading="lazy"></div></article>
+        <article class="feature"><div class="feature-text"><p class="eyebrow mono">02 / MOTION &amp; EFFECTS</p><h3>움직임과 효과는 따로 조절</h3><p>글자를 고정하거나 양방향으로 흘려보내고, 깜빡임(Blink)·맥동(Pulse)·페이드(Fade) 효과를 더해 보세요. 이동과 효과의 속도도 각각 조절할 수 있습니다.</p></div><div class="feature-photo"><img src="docs/play-store/screenshots/ko/04-motion-effects.png" alt="LEDgram 이동 방향과 화면 효과 설정" loading="lazy"></div></article>
+        <article class="feature"><div class="feature-text"><p class="eyebrow mono">03 / PRESETS</p><h3>자주 쓰는 문구는 저장</h3><p>마음에 드는 설정을 로컬 프리셋에 저장하고 미리보기와 함께 다시 불러올 수 있습니다. 이름 변경, 덮어쓰기, 삭제, 불러오기 실행 취소도 지원합니다.</p></div><div class="feature-photo"><img src="docs/play-store/screenshots/ko/03-presets.png" alt="LEDgram 프리셋 목록과 미리보기" loading="lazy"></div></article>
+      </div>
+    </section>
+    <section class="display" id="display" aria-labelledby="display-title">
+      <div class="container">
+        <p class="eyebrow mono">FULL-SCREEN DISPLAY</p>
+        <h2 id="display-title">메시지가 주인공인 화면.</h2>
+        <p class="display-description">Text + Glow와 Dot Matrix, 두 가지 표현 방식. 전체 화면 Display에서는 광고 없이 문구에 집중할 수 있습니다. 화면 방향 추적과 Lock / Unlock으로 스마트폰·태블릿·폴더블에서도 편하게 보여주세요.</p>
+        <div class="gallery">
+          <figure><div class="gallery-picture"><img src="docs/play-store/screenshots/ko/05-text-glow.png" alt="LEDgram Text + Glow 전체 화면" loading="lazy"></div><figcaption><strong>Text + Glow</strong><span>빛나는 글자 표현</span></figcaption></figure>
+          <figure><div class="gallery-picture"><img src="docs/play-store/screenshots/ko/06-dot-matrix.png" alt="LEDgram Dot Matrix 전체 화면" loading="lazy"></div><figcaption><strong>Dot Matrix</strong><span>도트 매트릭스 전광판 표현</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+    <section class="container details" aria-labelledby="details-title">
+      <div class="section-intro"><p class="eyebrow mono">SMALL DETAILS</p><h2 id="details-title">필요한 것에 집중했습니다.</h2></div>
+      <div class="facts"><div class="fact"><h3>계정 없이 바로</h3><p>가입이나 로그인이 필요하지 않습니다.</p></div>
+      <div class="fact"><h3>14개 언어 지원</h3><p>시스템 기본 언어 외에 앱에서 14개 언어를 선택할 수 있으며 아랍어 RTL도 지원합니다.</p></div>
+      <div class="fact"><h3>다양한 화면 크기</h3><p>스마트폰, 태블릿, 폴더블 기기에서 사용할 수 있습니다.</p></div>
+      <div class="fact"><h3>여러 줄 문구</h3><p>한글을 포함한 명시적 줄바꿈을 지원합니다.</p></div></div>
+    </section>
+    <section class="container install" aria-labelledby="install-title"><div><p class="eyebrow mono">READY TO DISPLAY?</p><h2 id="install-title">당신의 메시지를 보여주세요.</h2><p>LEDgram은 Google Play에서 설치할 수 있습니다.</p></div><a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.gwolbisa.ledgram" target="_blank" rel="noopener noreferrer">Google Play에서 설치 ↗</a></section>
+    <section class="legal" id="privacy" aria-labelledby="privacy-title"><div class="container legal-inner"><div><h2 id="privacy-title">개인정보처리방침</h2><p>LEDgram은 계정 로그인을 요구하지 않습니다. 앱 편집 화면에서는 Google Mobile Ads를 사용하며, 지역에 따라 동의 및 개인정보 보호 옵션을 제공합니다.</p></div><div class="links"><a href="privacy/ko.html" lang="ko">한국어 개인정보처리방침 ↗</a><a href="privacy/" lang="en">Privacy Policy (English) ↗</a></div></div></section>
   </main>
-
-  <footer>
-    <p>LEDgram · A Gwol Labs product</p>
-  </footer>
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 Gwol Labs. All rights reserved.</span><a href="https://chiffon95.github.io/">Gwol Labs 홈페이지 ↗</a></div></footer>
 </body>
 </html>
